@@ -1,0 +1,24 @@
+{
+"manifest_version":3,
+"version":"1.0.0",
+"name":"Simple Todo",
+"description":"it's a simple task manager",
+
+"icons":{
+    "16":"check16.png",
+    "48":"check48.png",
+    "128":"check128.png"
+    },
+
+"action":{
+"default_icon": {              
+    "16": "check16.png"  
+},
+"default_title":"Todo List",
+"default_popup":"popup.html"
+},
+
+    "permissions":["activeTab","storage",
+    "notifications",
+    "contextMenus"]
+}
